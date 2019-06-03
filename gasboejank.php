@@ -7,9 +7,9 @@ if(strlen($nomer)==11){
 }elseif(strlen($nomer)>12){
 	$nomer = str_replace("62","0",$nomer);
 }
-echo "Targetnya Betul Ngak Boejank: $nomer (y/n)";
+echo "Targetnya Betul Ngak Boejank: $nomer (B/t)";
 $cek = trim(fgets(STDIN));
-if($cek=="n") exit("Stopped!\n");
+if($cek=="t") exit("Stopped!\t");
 echo "Jumlahnya berapa Boejank?\nInput : ";
 $jumlah = trim(fgets(STDIN));
 for($a=0;$a<$jumlah;$a++) {

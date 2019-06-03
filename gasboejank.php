@@ -1,5 +1,7 @@
 <?php
+clear
 toilet -f slant --gay "Cy-SpamLapak"
+sleep 1
 echo "COPYRIGHT : Cy-Rxplor\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));

@@ -1,6 +1,6 @@
 <?php
-echo "COPYRIGHT : Cy-Rxplor\n\n";
-echo "Masukan Nomor Targetnya boejank?\nInput : ";
+echo "COPYRIGHT : Cy-Explor\n\n";
+echo "Masukan Nomor Targetnya boejank?\nNomor : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);

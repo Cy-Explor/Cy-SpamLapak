@@ -1,3 +1,4 @@
+#!/system/xbin/bash
 <?php
 clear
 toilet -f slant --gay "Cy-SpamLapak"
@@ -56,4 +57,3 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_close($ch);
 	print $a.$nomer." [Sending]\n";
 }
-

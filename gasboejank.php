@@ -1,5 +1,5 @@
 <?php
-toilet -f "COPYRIGHT : Cy-Explor\n\n";
+echo "COPYRIGHT : Cy-Explor\n";
 echo "Masukan Nomor Targetnya boejank?\nNomor : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){

@@ -1,5 +1,5 @@
 <?php
-echo "COPYRIGHT : Cy-Explor\n\n";
+toilet -f "COPYRIGHT : Cy-Explor\n\n";
 echo "Masukan Nomor Targetnya boejank?\nNomor : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
@@ -53,4 +53,3 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_close($ch);
 	print $a.$nomer." [Dah Terkirim Bujank]\n";
 }
-clear
